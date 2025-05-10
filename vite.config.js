@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/hosted/",
   plugins: [tailwindcss(), react()],
-  base: "/hosted",
 })
